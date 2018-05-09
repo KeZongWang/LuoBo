@@ -15,6 +15,8 @@
 		049E854020A2A29300461CB0 /* BScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E853D20A2A29300461CB0 /* BScene.cpp */; };
 		049E854320A2A30100461CB0 /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854120A2A30100461CB0 /* CScene.cpp */; };
 		049E854420A2A30100461CB0 /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854120A2A30100461CB0 /* CScene.cpp */; };
+		049E854820A2CACE00461CB0 /* DScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854620A2CACE00461CB0 /* DScene.cpp */; };
+		049E854920A2CACE00461CB0 /* DScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854620A2CACE00461CB0 /* DScene.cpp */; };
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -479,6 +481,8 @@
 		049E853E20A2A29300461CB0 /* BScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BScene.hpp; sourceTree = "<group>"; };
 		049E854120A2A30100461CB0 /* CScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CScene.cpp; sourceTree = "<group>"; };
 		049E854220A2A30100461CB0 /* CScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CScene.hpp; sourceTree = "<group>"; };
+		049E854620A2CACE00461CB0 /* DScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DScene.cpp; sourceTree = "<group>"; };
+		049E854720A2CACE00461CB0 /* DScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DScene.hpp; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1125,6 +1129,8 @@
 				049E853E20A2A29300461CB0 /* BScene.hpp */,
 				049E854120A2A30100461CB0 /* CScene.cpp */,
 				049E854220A2A30100461CB0 /* CScene.hpp */,
+				049E854620A2CACE00461CB0 /* DScene.cpp */,
+				049E854720A2CACE00461CB0 /* DScene.hpp */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -1621,6 +1627,7 @@
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				049E854820A2CACE00461CB0 /* DScene.cpp in Sources */,
 				8988480B20A059D400DBC7FF /* VisibleRect.cpp in Sources */,
 				898847EC20A0328700DBC7FF /* UIchapterLayer.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
@@ -1646,6 +1653,7 @@
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				049E854020A2A29300461CB0 /* BScene.cpp in Sources */,
 				898847ED20A0328700DBC7FF /* UIchapterLayer.cpp in Sources */,
+				049E854920A2CACE00461CB0 /* DScene.cpp in Sources */,
 				049E853220A292ED00461CB0 /* RadishTest.cpp in Sources */,
 				8988480020A0354400DBC7FF /* UIManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,

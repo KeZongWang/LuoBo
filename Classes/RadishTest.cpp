@@ -119,6 +119,14 @@ void RadishTest::DirectorScene()
         SceneManage::gotoCScene();
     });
     
+    auto Btnshe = static_cast<ui::Button*>(node->getChildByName("Image_1")->getChildByName("Btnshe"));
+    Btnshe->addClickEventListener([=](Ref*Psender)
+    {
+        CCLOG("btn3");
+        
+        SceneManage::gotoDScene();
+    });
+
 }
 
 

@@ -5,12 +5,12 @@
 //  Created by mac on 18/5/9.
 //
 //
-
+#include "RadishTest.hpp"
 #include "BScene.hpp"
 #include "CScene.hpp"
 #include "SceneManage.hpp"
 #include "SelectScene.hpp"
-
+#include "DScene.hpp"
 using namespace cocos2d;
 void SceneManage::gotoSelectScene()
 {
@@ -33,9 +33,17 @@ void SceneManage::gotoCScene()
     
 }
 
+void SceneManage::gotoRadishTestScene()
+{
+    auto scene= RadishTest::createScene();
+    Director::getInstance()->replaceScene(scene);
+}
 
-
-
+void SceneManage::gotoDScene()
+{
+    auto scene= DScene::createScene();
+    Director::getInstance()->replaceScene(scene);
+}
 
 
 

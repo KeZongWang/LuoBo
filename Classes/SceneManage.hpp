@@ -16,5 +16,8 @@ public:
     static void gotoSelectScene();
      static void gotoBScene();
      static void gotoCScene();
+    static void gotoRadishTestScene();
+    static void gotoDScene();
+
 };
 #endif /* SceneManage_hpp */

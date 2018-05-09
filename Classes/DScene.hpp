@@ -1,23 +1,21 @@
 //
-//  BScene.hpp
+//  DScene.hpp
 //  DefendRadish
 //
 //  Created by mac on 18/5/9.
 //
 //
 
-#ifndef BScene_hpp
-#define BScene_hpp
+#ifndef DScene_hpp
+#define DScene_hpp
 
 #include <stdio.h>
-class BScene:public cocos2d::Layer
+class DScene:public cocos2d::Layer
 {
 public:
     static cocos2d::Scene* createScene();
     virtual bool init()override;
-    CREATE_FUNC(BScene);
-    void returnTest();
+    CREATE_FUNC(DScene);
     
 };
-
-#endif /* BScene_hpp */
+#endif /* DScene_hpp */
