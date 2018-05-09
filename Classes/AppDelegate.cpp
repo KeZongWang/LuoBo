@@ -1,5 +1,7 @@
 #include "AppDelegate.h"
 #include "SelectScene.hpp"
+#include "RadishTest.hpp"
+
 
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -94,7 +96,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
     // create a scene. it's an autorelease object
-    auto scene = SelectScene::createScene();
+//    auto scene = SelectScene::createScene();
+    auto scene = RadishTest::createScene();
 
     // run
     director->runWithScene(scene);
