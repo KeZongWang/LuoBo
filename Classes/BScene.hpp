@@ -17,6 +17,8 @@ public:
     virtual bool init()override;
     CREATE_FUNC(BScene);
     void returnTest();
+private:
+    cocos2d::Layer* layer;
     
 };
 

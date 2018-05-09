@@ -24,7 +24,7 @@ bool BScene::init()
     {
         return false;
     }
-   
+    
     this->returnTest();
 
     return true;
@@ -32,16 +32,19 @@ bool BScene::init()
 
 void BScene::returnTest()
 {
+
     auto button = ui::Button::create();
     button->setTouchEnabled(true);
-    button->loadTextures("Studio/cloud01.png", "Studio/cloud02.png",NULL);
-    button->setPosition(Vec2(240,180));
-    this->addChild(button);
+    button->setTitleText("返回");
+    button->setColor(Color3B::RED);
+    button->setPosition(Vec2(240,140));
+    button->setScale(3);
     button->addClickEventListener([=](Ref* send){
-    
-        SceneManage::gotoRadishTestScene();
-    
+    SceneManage::gotoRadishTestScene();
     });
+    this->addChild(button);
+
+    
 }
 
 

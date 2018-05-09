@@ -6,6 +6,7 @@
 //
 //
 
+#include "SceneManage.hpp"
 #include "SelectScene.hpp"
 #include "ui/CocosGUI.h"
 #include "UIManager.hpp"
@@ -22,6 +23,7 @@ bool SelectScene::init()
         return false;
     }
     this->initUI();
+    
     return true;
 }
 void SelectScene::onEnter()
@@ -37,5 +39,16 @@ void SelectScene::onExit()
 void SelectScene::initUI()
 {
     auto layer = UIManager::CreateLayer(UIManager::LayerType::SETLAYER);
+    auto button = ui::Button::create();
+    button->setTouchEnabled(true);
+    button->setTitleText("返回");
+    button->setColor(Color3B::RED);
+    button->setPosition(Vec2(240,140));
+    button->setScale(3);
+    button->addClickEventListener([=](Ref* send){
+        SceneManage::gotoRadishTestScene();
+    });
+    layer ->addChild(button);
+
     this->addChild(layer);
 }
