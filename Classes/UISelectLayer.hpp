@@ -20,14 +20,16 @@ public:
     virtual void onActive();
     virtual void onDestroy();
     
+    void registerAllCallBacks();
+
     void loadCSB();
     
-    void selectCallBack(cocos2d::Ref* sender);
-    void returnCallBack(cocos2d::Ref* sender);
+    void backCallBack(cocos2d::Ref* sender);
+    void helpCallBack(cocos2d::Ref* sender);
     
 private:
-    cocos2d::ui::Button* m_selectbtn1;
-    cocos2d::ui::Button* m_returnbtn;
+    cocos2d::ui::Button* m_backbtn;
+    cocos2d::ui::Button* m_helpbtn;
     cocos2d::Node* m_node;
     std::vector<GameCase*> m_casesVector;
 };

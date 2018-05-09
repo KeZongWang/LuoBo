@@ -29,6 +29,14 @@ void UIchapterLayer::loadCSB()
     m_helpbtn = static_cast<ui::Button*>(m_node->getChildByName("charpterLayer")->getChildByName("helpbtn"));
 
     m_pageview=static_cast<ui::PageView*>(m_node->getChildByName("charpterLayer")->getChildByName("PageView"));
+   
+    auto page = m_pageview->getItem(0);
+    auto pointbtn=static_cast<ui::Button*>(page->getChildByTag(7));
+    
+    pointbtn->addClickEventListener(CC_CALLBACK_1(UIchapterLayer::part1CallBack,this));
+                                               
+
+    
 }
 void UIchapterLayer::registerAllCallBacks()
 {
