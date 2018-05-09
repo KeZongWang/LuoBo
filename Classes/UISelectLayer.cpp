@@ -16,6 +16,7 @@ void UISelectLayer::onCreate()
 {
     
     this->loadCSB();
+    
 }
 
 void UISelectLayer::loadCSB()
@@ -23,15 +24,26 @@ void UISelectLayer::loadCSB()
     FileUtils::getInstance()->addSearchPath("Studio");
     m_node = CSLoader::createNode(SelectLayerCSB);
     this->addChild(m_node);
+    m_backbtn = static_cast<ui::Button*>(m_node->getChildByName("backbtn"));
+    m_helpbtn = static_cast<ui::Button*>(m_node->getChildByName("helpbtn"));
+    this->registerAllCallBacks();
 }
 
-void UISelectLayer::selectCallBack(cocos2d::Ref* sender)
+void UISelectLayer::registerAllCallBacks()
 {
+    CCLOG("进入");
+    m_backbtn->addClickEventListener(CC_CALLBACK_1(UISelectLayer::backCallBack,this));
+    m_helpbtn->addClickEventListener(CC_CALLBACK_1(UISelectLayer::helpCallBack,this));
 }
 
-void UISelectLayer::returnCallBack(cocos2d::Ref* sender)
+void UISelectLayer::backCallBack(cocos2d::Ref* sender)
 {
-   
+    CCLOG("点击");
+    auto layer = UIManager::CreateLayer(UIManager::LayerType::SETLAYER);
+    this->addChild(layer);
+}
+void UISelectLayer::helpCallBack(cocos2d::Ref* sender)
+{
 }
 void UISelectLayer::onActive()
 {
