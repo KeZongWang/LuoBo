@@ -16,6 +16,7 @@ public:
     enum LayerType{
         SETLAYER,
         SELECT,
+        GAME1,
     };
     static UIBaseLayer*CreateLayer(LayerType type);
     static void DestroyLayer();

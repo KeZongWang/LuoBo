@@ -16,7 +16,9 @@ static const char* StartScene_BackGround = "loding_bg.png";
 //按钮
 static const char* StartScene_playBtn = "playbutton.png";
 static const char* StartScene_setBtn = "menu.png";
-
+static const char* PingziBtn = "Bottle01.png";
+static const char* ShitBtn = "Shit01.png";
+static const char* ChaBtn = "check_close_normal2.png";
 
 //背景音乐
 static const char* StartScene_BgMusic = "bg_startgamescene.mp3";
@@ -25,8 +27,15 @@ static const char* StartScene_BgMusic = "bg_startgamescene.mp3";
 //stduido
 static const char* chapterLayerCSB = "Studio/DefendRadishScene.csb";
 static const char* SelectLayerCSB = "Studio/SelectLayer.csb";
+static const char* GameLayer1CSB = "Studio/Game1Layer.csb";
 
+//TMXTiledMap
+static const char* GameTmx1= "Game1.tmx";
 
+//part
+static const char* Yun = "cloud01.png";
+static const char* Qiu1 = "cloud02.png";
+static const char* Qiu2 = "cloud03.png";
 
 
 //音效

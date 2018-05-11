@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="15" height="10" tilewidth="32" tileheight="32" nextobjectid="19">
+ <tileset firstgid="1" name="yun" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="9" columns="3">
+  <image source="luoboTilemap.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="10" name="meta" tilewidth="32" tileheight="32" spacing="2" margin="2" tilecount="1" columns="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="can" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4wEGiejYkNiuJellxsEGAHYhZkDAjCXpJ4TOj2cOEppaQ/FACAIMgAG0=
+  </data>
+ </layer>
+ <objectgroup name="way">
+  <object id="2" name="exit" x="48" y="80"/>
+  <object id="3" name="point1" x="48" y="205"/>
+  <object id="4" name="point2" x="175" y="205"/>
+  <object id="5" name="point3" x="175" y="145"/>
+  <object id="6" name="point4" x="305" y="145"/>
+  <object id="8" name="point6" x="433" y="205"/>
+  <object id="9" name="finish" x="433" y="80"/>
+  <object id="11" name="point5" x="305" y="205"/>
+ </objectgroup>
+ <objectgroup name="part">
+  <object id="15" name="Yun" x="130" y="95"/>
+  <object id="16" name="qiu1" x="225" y="95"/>
+  <object id="17" name="qiu2" x="350" y="95"/>
+ </objectgroup>
+ <layer name="addconnet" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfcFGIGZBobGxsctTUi64Ol98I6SWWT4w9+OTpjSkBAKn9Az8=
+  </data>
+ </layer>
+</map>

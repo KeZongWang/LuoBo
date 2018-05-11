@@ -67,19 +67,6 @@ void UIchapterLayer::rightCallBack(cocos2d::Ref* sender)
         pagenum++;
         CCLOG("pagenum=%d",pagenum);
         m_pageview->scrollToItem(pagenum);
-        /*
-        m_leftbtn->setVisible(true);
-        if (i==5)
-        {
-            m_rightbtn->setVisible(false);
-        }
-
-        auto pointbtn=static_cast<ui::Button*>(m_node->getChildByName("charpterLayer")->getChildByTag(i));
-        pointbtn->setEnabled(true);
-        
-        pointbtn=static_cast<ui::Button*>( m_node->getChildByName("charpterLayer")->getChildByTag(i+1));
-        pointbtn->setEnabled(false);
-         */
     }
 
 }

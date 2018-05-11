@@ -9,6 +9,7 @@
 #include "UIManager.hpp"
 #include "UIchapterLayer.hpp"
 #include "UISelectLayer.hpp"
+#include "UIGameLayer1.hpp"
 #define BACKGROUNDZORDER 10
 #define SETLAYERZORDER 20
 
@@ -26,6 +27,12 @@ UIBaseLayer* UIManager::CreateLayer(UIManager::LayerType type)
         case SELECT:
         {
             m_activeLayer = UISelectLayer::create();
+            m_activeLayer->setLocalZOrder(SETLAYERZORDER);
+            break;
+        }
+        case GAME1:
+        {
+            m_activeLayer = UIGameLayer1::create();
             m_activeLayer->setLocalZOrder(SETLAYERZORDER);
             break;
         }
