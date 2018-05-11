@@ -38,6 +38,7 @@ void SelectScene::onExit()
 }
 void SelectScene::initUI()
 {
+    //创建已创好图层；
     auto layer = UIManager::CreateLayer(UIManager::LayerType::SETLAYER);
     auto button = ui::Button::create();
     button->setTouchEnabled(true);

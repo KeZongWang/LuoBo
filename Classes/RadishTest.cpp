@@ -12,7 +12,7 @@
 #include "Constant.h"
 #include "VisibleRect.hpp"
 #include "SceneManage.hpp"
-
+#include "UIManager.hpp"
 
 using namespace cocos2d;
 using namespace ui;
@@ -77,7 +77,6 @@ void RadishTest::SceneTest()
 
 void RadishTest::SayActionTest()
 {
-     FileUtils::getInstance()->addSearchPath("Studio");
     auto ImageView = static_cast<class ImageView*>(node->getChildByName("Image_1"));
     Sprite1 = Sprite::create(RadishTest_SaySprite1);
     Sprite1->setPosition(Vec2(-10,270));
@@ -96,27 +95,33 @@ void RadishTest::DirectorScene()
     auto btn1 = static_cast<ui::Button*>(node->getChildByName("Image_1")->getChildByName("Btnzuo"));
     auto btn2 = static_cast<ui::Button*>(node->getChildByName("Image_1")->getChildByName("Btnzong"));
     auto btn3 = static_cast<ui::Button*>(node->getChildByName("Image_1")->getChildByName("Btnyou"));
+    auto xin =static_cast<ui::Button*>(node->getChildByName("Image_1")->getChildByName("Btnxin"));
+    xin->addClickEventListener([=](Ref* sende){
+     auto layer5 = UIManager::CreateLayer(UIManager::LayerType::UIHEART);
+        this->addChild(layer5);
+    
+    });
     
     btn1->addClickEventListener([=](Ref*Psender)
     {
         CCLOG("btn1");
         
-        SceneManage::gotoSelectScene();
+        SceneManage::gotoGameScene();
     });
 
 
     btn2->addClickEventListener([=](Ref*Psender)
     {
         CCLOG("btn2");
-        SceneManage::gotoBScene();
-        
+        SceneManage::gotoProgressScene();
     });
     
     btn3->addClickEventListener([=](Ref*Psender)
     {
         CCLOG("btn3");
+        auto layer3 = UIManager::CreateLayer(UIManager::LayerType::SETLAYER);
+        this->addChild(layer3);
         
-        SceneManage::gotoCScene();
     });
     
     auto Btnshe = static_cast<ui::Button*>(node->getChildByName("Image_1")->getChildByName("Btnshe"));

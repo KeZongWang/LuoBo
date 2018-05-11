@@ -11,7 +11,19 @@
 #include "SceneManage.hpp"
 #include "SelectScene.hpp"
 #include "DScene.hpp"
+#include "GameScene.hpp"
+#include "ProgressScene.hpp"
+
+
 using namespace cocos2d;
+
+
+void SceneManage::gotoProgressScene()
+{
+    auto scene1= ProgressScene::createScene();
+    Director::getInstance()->replaceScene(scene1);
+
+}
 void SceneManage::gotoSelectScene()
 {
     auto scene1= SelectScene::createScene();
@@ -45,8 +57,11 @@ void SceneManage::gotoDScene()
     Director::getInstance()->replaceScene(scene);
 }
 
-
-
+void SceneManage::gotoGameScene()
+{
+    auto scene= GameScene::createScene();
+    Director::getInstance()->replaceScene(scene);
+}
 
 
 

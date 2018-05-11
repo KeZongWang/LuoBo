@@ -10,6 +10,7 @@
 #define UIBaseLayer_hpp
 
 #include "cocos2d.h"
+//图层的父类；
 class UIBaseLayer:public cocos2d::Layer
 {
 public:

@@ -18,6 +18,7 @@ public:
      static void gotoCScene();
     static void gotoRadishTestScene();
     static void gotoDScene();
-
-};
+    static void gotoGameScene();
+    static void gotoProgressScene();
+   };
 #endif /* SceneManage_hpp */

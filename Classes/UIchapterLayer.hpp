@@ -33,6 +33,8 @@ public:
  
 private:
     cocos2d::Node* m_node;
+    cocos2d::Node* m_node1;
+    cocos2d::ui::Button* m_startbtn;
     cocos2d::ui::Button* m_leftbtn;
     cocos2d::ui::Button* m_rightbtn;
     cocos2d::ui::Button* m_backbtn;

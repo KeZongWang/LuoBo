@@ -16,10 +16,13 @@ public:
     enum LayerType{
         SETLAYER,
         SELECT,
+        UIMENU,
+        UIHEART,
+        
     };
     static UIBaseLayer*CreateLayer(LayerType type);
-    static void DestroyLayer();
-    static UIBaseLayer* m_activeLayer;
+    static void DestroyLayer();//成员变量图层存在，删除图层，并置空
+    static UIBaseLayer* m_activeLayer;//成员变量
     
     
     

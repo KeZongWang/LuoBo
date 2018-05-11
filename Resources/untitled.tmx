@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="left-down" width="15" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="left-down" width="15" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+ <tileset firstgid="1" source="yun.tsx"/>
  <layer name="块层 1" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4D6AAACWAAB
+   eJxjYCAfsJGhhwNKs5KhlxWNhgF2IGZBw4xE6sXmDlxqmNHsYMKilxg1IwEAAKMYAHE=
   </data>
  </layer>
+ <objectgroup name="GameScene1">
+  <object id="1" name="place2" x="15" y="175"/>
+  <object id="2" name="place3" x="145" y="175"/>
+  <object id="3" name="place4" x="145" y="110"/>
+  <object id="4" name="place5" x="305" y="110"/>
+  <object id="5" name="place6" x="305" y="175"/>
+  <object id="6" name="place7" x="430" y="175"/>
+  <object id="7" name="place8" x="430" y="45"/>
+  <object id="8" name="place1" x="15" y="45"/>
+ </objectgroup>
 </map>

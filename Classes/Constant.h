@@ -28,6 +28,7 @@ static const char* StartScene_BgMusic = "bg_startgamescene.mp3";
 static const char* chapterLayerCSB = "Studio/DefendRadishScene.csb";
 static const char* SelectLayerCSB = "Studio/SelectLayer.csb";
 static const char* RadishTestCSB = "Studio/Layer1.csb";
+static const char* ProgressSceneCSB = "Studio/Layer2.csb";
 
 
 

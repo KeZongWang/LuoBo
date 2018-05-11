@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04121D6520A3D9360057CA02 /* ProgressScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04121D6320A3D9360057CA02 /* ProgressScene.cpp */; };
+		04121D6620A3D9360057CA02 /* ProgressScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04121D6320A3D9360057CA02 /* ProgressScene.cpp */; };
+		04121D6B20A3DEF50057CA02 /* countdown_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D6820A3DEF50057CA02 /* countdown_01.png */; };
+		04121D6C20A3DEF50057CA02 /* countdown_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D6820A3DEF50057CA02 /* countdown_01.png */; };
+		04121D6D20A3DEF50057CA02 /* countdown_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D6920A3DEF50057CA02 /* countdown_02.png */; };
+		04121D6E20A3DEF50057CA02 /* countdown_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D6920A3DEF50057CA02 /* countdown_02.png */; };
+		04121D6F20A3DEF50057CA02 /* countdown_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D6A20A3DEF50057CA02 /* countdown_03.png */; };
+		04121D7020A3DEF50057CA02 /* countdown_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D6A20A3DEF50057CA02 /* countdown_03.png */; };
+		04121D7220A414DE0057CA02 /* PetFly11_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D7120A414DE0057CA02 /* PetFly11_01.png */; };
+		04121D7320A414DE0057CA02 /* PetFly11_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D7120A414DE0057CA02 /* PetFly11_01.png */; };
+		04121D7620A41A5E0057CA02 /* monsterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04121D7420A41A5E0057CA02 /* monsterTest.cpp */; };
+		04121D7720A41A5E0057CA02 /* monsterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04121D7420A41A5E0057CA02 /* monsterTest.cpp */; };
+		04121D7A20A428B70057CA02 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D7920A428B70057CA02 /* bird.png */; };
+		04121D7B20A428B70057CA02 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 04121D7920A428B70057CA02 /* bird.png */; };
+		0462665B20A522FF0065438C /* UIMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0462665920A522FF0065438C /* UIMenu.cpp */; };
+		0462665C20A522FF0065438C /* UIMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0462665920A522FF0065438C /* UIMenu.cpp */; };
+		0462666120A578050065438C /* RadishSpriteTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0462665F20A578050065438C /* RadishSpriteTest.cpp */; };
+		0462666220A578050065438C /* RadishSpriteTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0462665F20A578050065438C /* RadishSpriteTest.cpp */; };
+		0462666520A58C060065438C /* UIHeart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0462666320A58C060065438C /* UIHeart.cpp */; };
+		0462666620A58C060065438C /* UIHeart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0462666320A58C060065438C /* UIHeart.cpp */; };
 		049E853120A292ED00461CB0 /* RadishTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E852F20A292ED00461CB0 /* RadishTest.cpp */; };
 		049E853220A292ED00461CB0 /* RadishTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E852F20A292ED00461CB0 /* RadishTest.cpp */; };
 		049E853620A29DCD00461CB0 /* SceneManage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E853420A29DCD00461CB0 /* SceneManage.cpp */; };
@@ -17,6 +37,12 @@
 		049E854420A2A30100461CB0 /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854120A2A30100461CB0 /* CScene.cpp */; };
 		049E854820A2CACE00461CB0 /* DScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854620A2CACE00461CB0 /* DScene.cpp */; };
 		049E854920A2CACE00461CB0 /* DScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854620A2CACE00461CB0 /* DScene.cpp */; };
+		049E854C20A2EA2900461CB0 /* yun.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 049E854B20A2EA2900461CB0 /* yun.tsx */; };
+		049E854D20A2EA2900461CB0 /* yun.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 049E854B20A2EA2900461CB0 /* yun.tsx */; };
+		049E855020A2EA4400461CB0 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854E20A2EA4400461CB0 /* GameScene.cpp */; };
+		049E855120A2EA4400461CB0 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854E20A2EA4400461CB0 /* GameScene.cpp */; };
+		049E855320A2F4A800461CB0 /* untitled.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 049E855220A2F4A800461CB0 /* untitled.tmx */; };
+		049E855420A2F4A800461CB0 /* untitled.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 049E855220A2F4A800461CB0 /* untitled.tmx */; };
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -473,6 +499,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04121D6320A3D9360057CA02 /* ProgressScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProgressScene.cpp; sourceTree = "<group>"; };
+		04121D6420A3D9360057CA02 /* ProgressScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProgressScene.hpp; sourceTree = "<group>"; };
+		04121D6820A3DEF50057CA02 /* countdown_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_01.png; sourceTree = "<group>"; };
+		04121D6920A3DEF50057CA02 /* countdown_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_02.png; sourceTree = "<group>"; };
+		04121D6A20A3DEF50057CA02 /* countdown_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_03.png; sourceTree = "<group>"; };
+		04121D7120A414DE0057CA02 /* PetFly11_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PetFly11_01.png; sourceTree = "<group>"; };
+		04121D7420A41A5E0057CA02 /* monsterTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = monsterTest.cpp; sourceTree = "<group>"; };
+		04121D7520A41A5E0057CA02 /* monsterTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = monsterTest.hpp; sourceTree = "<group>"; };
+		04121D7920A428B70057CA02 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		0462665920A522FF0065438C /* UIMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIMenu.cpp; sourceTree = "<group>"; };
+		0462665A20A522FF0065438C /* UIMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UIMenu.hpp; sourceTree = "<group>"; };
+		0462665F20A578050065438C /* RadishSpriteTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadishSpriteTest.cpp; sourceTree = "<group>"; };
+		0462666020A578050065438C /* RadishSpriteTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RadishSpriteTest.hpp; sourceTree = "<group>"; };
+		0462666320A58C060065438C /* UIHeart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIHeart.cpp; sourceTree = "<group>"; };
+		0462666420A58C060065438C /* UIHeart.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UIHeart.hpp; sourceTree = "<group>"; };
 		049E852F20A292ED00461CB0 /* RadishTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadishTest.cpp; sourceTree = "<group>"; };
 		049E853020A292ED00461CB0 /* RadishTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RadishTest.hpp; sourceTree = "<group>"; };
 		049E853420A29DCD00461CB0 /* SceneManage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneManage.cpp; sourceTree = "<group>"; };
@@ -483,6 +524,10 @@
 		049E854220A2A30100461CB0 /* CScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CScene.hpp; sourceTree = "<group>"; };
 		049E854620A2CACE00461CB0 /* DScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DScene.cpp; sourceTree = "<group>"; };
 		049E854720A2CACE00461CB0 /* DScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DScene.hpp; sourceTree = "<group>"; };
+		049E854B20A2EA2900461CB0 /* yun.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = yun.tsx; sourceTree = "<group>"; };
+		049E854E20A2EA4400461CB0 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		049E854F20A2EA4400461CB0 /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
+		049E855220A2F4A800461CB0 /* untitled.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = untitled.tmx; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -879,16 +924,20 @@
 				898845F020A0230200DBC7FF /* check_close_pressed.png */,
 				898845F120A0230200DBC7FF /* checkcheck_bg.png */,
 				898845F220A0230200DBC7FF /* cloud1.png */,
-				898845F320A0230200DBC7FF /* cloud01.png */,
 				898845F420A0230200DBC7FF /* cloud2.png */,
+				898845F320A0230200DBC7FF /* cloud01.png */,
 				898845F520A0230200DBC7FF /* cloud02.png */,
 				898845F620A0230200DBC7FF /* cloud03.png */,
 				898845F720A0230200DBC7FF /* countdown_01.png */,
 				898845F820A0230200DBC7FF /* countdown_02.png */,
 				898845F920A0230200DBC7FF /* countdown_03.png */,
 				898845FA20A0230200DBC7FF /* countdown_11.png */,
+				04121D7920A428B70057CA02 /* bird.png */,
 				898845FB20A0230200DBC7FF /* countdown_12.png */,
 				898845FC20A0230200DBC7FF /* countdown_13.png */,
+				04121D6820A3DEF50057CA02 /* countdown_01.png */,
+				04121D6920A3DEF50057CA02 /* countdown_02.png */,
+				04121D6A20A3DEF50057CA02 /* countdown_03.png */,
 				898845FD20A0230200DBC7FF /* credits_bg.png */,
 				898845FE20A0230200DBC7FF /* credits_normal_CN.png */,
 				898845FF20A0230200DBC7FF /* credits_selected_CN.png */,
@@ -959,6 +1008,7 @@
 				8988464020A0230200DBC7FF /* Shit11.png */,
 				8988464120A0230200DBC7FF /* soundfx_off_CN.png */,
 				8988464220A0230200DBC7FF /* soundfx_on_CN.png */,
+				049E854B20A2EA2900461CB0 /* yun.tsx */,
 				8988464320A0230200DBC7FF /* ss_locked_icon.png */,
 				8988464420A0230200DBC7FF /* ss_waves_1.png */,
 				8988464520A0230200DBC7FF /* ss_waves_10.png */,
@@ -1020,10 +1070,12 @@
 				8988467D20A0230200DBC7FF /* tower_locked.png */,
 				8988467E20A0230200DBC7FF /* tower_normal_CN.png */,
 				8988467F20A0230200DBC7FF /* tower_selected_CN.png */,
+				04121D7120A414DE0057CA02 /* PetFly11_01.png */,
 				8988468020A0230200DBC7FF /* TowerSelect.mp3 */,
 				8988468120A0230200DBC7FF /* turn.png */,
 				8988468220A0230200DBC7FF /* upLevel.csb */,
 				8988468320A0230200DBC7FF /* weiboicon03_normal.png */,
+				049E855220A2F4A800461CB0 /* untitled.tmx */,
 				8988468420A0230200DBC7FF /* weiboicon03_press.png */,
 				8988468520A0230200DBC7FF /* Welcome */,
 			);
@@ -1097,8 +1149,12 @@
 		898847E920A0323300DBC7FF /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				0462666320A58C060065438C /* UIHeart.cpp */,
+				0462666420A58C060065438C /* UIHeart.hpp */,
 				8988480120A0357800DBC7FF /* UIBaseLayer.cpp */,
 				8988480420A0358000DBC7FF /* UIBaseLayer.hpp */,
+				0462665920A522FF0065438C /* UIMenu.cpp */,
+				0462665A20A522FF0065438C /* UIMenu.hpp */,
 				898847EA20A0328700DBC7FF /* UIchapterLayer.cpp */,
 				898847EB20A0328700DBC7FF /* UIchapterLayer.hpp */,
 				89249D1520A1C2C800FEAE38 /* UISelectLayer.cpp */,
@@ -1131,6 +1187,14 @@
 				049E854220A2A30100461CB0 /* CScene.hpp */,
 				049E854620A2CACE00461CB0 /* DScene.cpp */,
 				049E854720A2CACE00461CB0 /* DScene.hpp */,
+				049E854E20A2EA4400461CB0 /* GameScene.cpp */,
+				049E854F20A2EA4400461CB0 /* GameScene.hpp */,
+				04121D6320A3D9360057CA02 /* ProgressScene.cpp */,
+				04121D6420A3D9360057CA02 /* ProgressScene.hpp */,
+				04121D7420A41A5E0057CA02 /* monsterTest.cpp */,
+				04121D7520A41A5E0057CA02 /* monsterTest.hpp */,
+				0462665F20A578050065438C /* RadishSpriteTest.cpp */,
+				0462666020A578050065438C /* RadishSpriteTest.hpp */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -1249,6 +1313,8 @@
 				8988468820A0230200DBC7FF /* BG-hd.pvr.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				8988471820A0230200DBC7FF /* luoboTileMap2.png in Resources */,
+				049E855320A2F4A800461CB0 /* untitled.tmx in Resources */,
+				04121D6F20A3DEF50057CA02 /* countdown_03.png in Resources */,
 				898846DA20A0230200DBC7FF /* fonts in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				898847D620A0230300DBC7FF /* tower_selected_CN.png in Resources */,
@@ -1297,6 +1363,7 @@
 				8988469220A0230200DBC7FF /* Bottle11.png in Resources */,
 				898846FC20A0230200DBC7FF /* leaf-2.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
+				049E854C20A2EA2900461CB0 /* yun.tsx in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				898846DC20A0230200DBC7FF /* help_3-hd.plist in Resources */,
 				898846FE20A0230200DBC7FF /* leaf-3.png in Resources */,
@@ -1313,6 +1380,7 @@
 				8988474E20A0230200DBC7FF /* setting_home_normal.png in Resources */,
 				8988476220A0230300DBC7FF /* ss_waves_10.png in Resources */,
 				898846A220A0230200DBC7FF /* btn_boss_pressed_CN.png in Resources */,
+				04121D6B20A3DEF50057CA02 /* countdown_01.png in Resources */,
 				898847C820A0230300DBC7FF /* tower_17_CN.png in Resources */,
 				898846AE20A0230200DBC7FF /* btn_setting_pressed.png in Resources */,
 				898847B220A0230300DBC7FF /* tower_11.png in Resources */,
@@ -1391,6 +1459,7 @@
 				8988473020A0230200DBC7FF /* monster_normal_CN.png in Resources */,
 				8988471E20A0230200DBC7FF /* menu_bg.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				04121D6D20A3DEF50057CA02 /* countdown_02.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				8988471220A0230200DBC7FF /* locked_notice_sbg.png in Resources */,
 				8988474C20A0230200DBC7FF /* setting_bg.png in Resources */,
@@ -1405,6 +1474,7 @@
 				898846A820A0230200DBC7FF /* btn_nest_normal_CN.png in Resources */,
 				898847BE20A0230300DBC7FF /* tower_14.png in Resources */,
 				898847D020A0230300DBC7FF /* tower_locked_CN.png in Resources */,
+				04121D7A20A428B70057CA02 /* bird.png in Resources */,
 				8988479620A0230300DBC7FF /* tower_04.png in Resources */,
 				898846A020A0230200DBC7FF /* btn_boss_normal_CN.png in Resources */,
 				898847AA20A0230300DBC7FF /* tower_09.png in Resources */,
@@ -1424,6 +1494,7 @@
 				898847E020A0230300DBC7FF /* weiboicon03_press.png in Resources */,
 				8988470E20A0230200DBC7FF /* locked_notice_ok_normal.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
+				04121D7220A414DE0057CA02 /* PetFly11_01.png in Resources */,
 				8988472220A0230200DBC7FF /* menu_quit_pressed_CN.png in Resources */,
 				898847D820A0230300DBC7FF /* TowerSelect.mp3 in Resources */,
 				898847B420A0230300DBC7FF /* tower_12_CN.png in Resources */,
@@ -1474,9 +1545,11 @@
 				898847C520A0230300DBC7FF /* tower_16_CN.png in Resources */,
 				898846B320A0230200DBC7FF /* Chapter in Resources */,
 				8988473B20A0230200DBC7FF /* news_normal.png in Resources */,
+				04121D7020A3DEF50057CA02 /* countdown_03.png in Resources */,
 				8988472B20A0230200DBC7FF /* menu_resume_pressed_CN.png in Resources */,
 				898847DF20A0230300DBC7FF /* weiboicon03_normal.png in Resources */,
 				8988476720A0230300DBC7FF /* ss_waves_20.png in Resources */,
+				04121D6E20A3DEF50057CA02 /* countdown_02.png in Resources */,
 				898847B320A0230300DBC7FF /* tower_11.png in Resources */,
 				898847D120A0230300DBC7FF /* tower_locked_CN.png in Resources */,
 				8988478B20A0230300DBC7FF /* tower_01.png in Resources */,
@@ -1510,9 +1583,11 @@
 				898847D520A0230300DBC7FF /* tower_normal_CN.png in Resources */,
 				898847C120A0230300DBC7FF /* tower_15_CN.png in Resources */,
 				8988471520A0230200DBC7FF /* luoBoCharpter.json in Resources */,
+				049E854D20A2EA2900461CB0 /* yun.tsx in Resources */,
 				898847BB20A0230300DBC7FF /* tower_13.png in Resources */,
 				8988479F20A0230300DBC7FF /* tower_06.png in Resources */,
 				8988469320A0230200DBC7FF /* Bottle11.png in Resources */,
+				04121D6C20A3DEF50057CA02 /* countdown_01.png in Resources */,
 				8988473F20A0230200DBC7FF /* Node.csb in Resources */,
 				8988469F20A0230200DBC7FF /* btn_bg.png in Resources */,
 				8988479520A0230300DBC7FF /* tower_04_CN.png in Resources */,
@@ -1534,6 +1609,7 @@
 				8988469520A0230200DBC7FF /* bottom.png in Resources */,
 				898846BB20A0230200DBC7FF /* checkcheck_bg.png in Resources */,
 				898847A920A0230300DBC7FF /* tower_09_CN.png in Resources */,
+				04121D7320A414DE0057CA02 /* PetFly11_01.png in Resources */,
 				8988470920A0230200DBC7FF /* Level11.csb in Resources */,
 				898846C120A0230200DBC7FF /* cloud2.png in Resources */,
 				898847CF20A0230300DBC7FF /* tower_18.png in Resources */,
@@ -1557,6 +1633,7 @@
 				898846EF20A0230200DBC7FF /* Items02-hd.png in Resources */,
 				8988475720A0230300DBC7FF /* Shit01.png in Resources */,
 				8988476920A0230300DBC7FF /* ss_waves_25.png in Resources */,
+				04121D7B20A428B70057CA02 /* bird.png in Resources */,
 				8988479D20A0230300DBC7FF /* tower_06_CN.png in Resources */,
 				8988476F20A0230300DBC7FF /* statistics_normal_CN.png in Resources */,
 				8988472120A0230200DBC7FF /* menu_quit_normal_CN.png in Resources */,
@@ -1609,6 +1686,7 @@
 				898846A720A0230200DBC7FF /* btn_help_pressed.png in Resources */,
 				898847DB20A0230300DBC7FF /* turn.png in Resources */,
 				8988473320A0230200DBC7FF /* monster_selected_CN.png in Resources */,
+				049E855420A2F4A800461CB0 /* untitled.tmx in Resources */,
 				898846B920A0230200DBC7FF /* check_close_pressed.png in Resources */,
 				898846F920A0230200DBC7FF /* Layer4.csb in Resources */,
 				8988471F20A0230200DBC7FF /* menu_bg.png in Resources */,
@@ -1626,12 +1704,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				0462666520A58C060065438C /* UIHeart.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				04121D7620A41A5E0057CA02 /* monsterTest.cpp in Sources */,
 				049E854820A2CACE00461CB0 /* DScene.cpp in Sources */,
 				8988480B20A059D400DBC7FF /* VisibleRect.cpp in Sources */,
+				04121D6520A3D9360057CA02 /* ProgressScene.cpp in Sources */,
+				0462665B20A522FF0065438C /* UIMenu.cpp in Sources */,
 				898847EC20A0328700DBC7FF /* UIchapterLayer.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				049E855020A2EA4400461CB0 /* GameScene.cpp in Sources */,
 				049E853F20A2A29300461CB0 /* BScene.cpp in Sources */,
+				0462666120A578050065438C /* RadishSpriteTest.cpp in Sources */,
 				898847F720A0334500DBC7FF /* SelectScene.cpp in Sources */,
 				049E854320A2A30100461CB0 /* CScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -1650,15 +1734,21 @@
 				898847F820A0334500DBC7FF /* SelectScene.cpp in Sources */,
 				049E853720A29DCD00461CB0 /* SceneManage.cpp in Sources */,
 				049E854420A2A30100461CB0 /* CScene.cpp in Sources */,
+				04121D6620A3D9360057CA02 /* ProgressScene.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				049E855120A2EA4400461CB0 /* GameScene.cpp in Sources */,
 				049E854020A2A29300461CB0 /* BScene.cpp in Sources */,
+				0462665C20A522FF0065438C /* UIMenu.cpp in Sources */,
 				898847ED20A0328700DBC7FF /* UIchapterLayer.cpp in Sources */,
+				04121D7720A41A5E0057CA02 /* monsterTest.cpp in Sources */,
 				049E854920A2CACE00461CB0 /* DScene.cpp in Sources */,
 				049E853220A292ED00461CB0 /* RadishTest.cpp in Sources */,
 				8988480020A0354400DBC7FF /* UIManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				89249D1820A1C2C800FEAE38 /* UISelectLayer.cpp in Sources */,
+				0462666220A578050065438C /* RadishSpriteTest.cpp in Sources */,
 				8988480C20A059D400DBC7FF /* VisibleRect.cpp in Sources */,
+				0462666620A58C060065438C /* UIHeart.cpp in Sources */,
 				8988480320A0357800DBC7FF /* UIBaseLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

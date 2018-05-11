@@ -8,7 +8,7 @@
 
 #include "UIchapterLayer.hpp"
 #include "Constant.h"
-
+#include "SceneManage.hpp"
 #include "UIManager.hpp"
 USING_NS_CC;
 
@@ -35,7 +35,12 @@ void UIchapterLayer::loadCSB()
     
     pointbtn->addClickEventListener(CC_CALLBACK_1(UIchapterLayer::part1CallBack,this));
                                                
-
+    FileUtils::getInstance()->addSearchPath("Studio");
+    m_node1 = CSLoader::createNode(SelectLayerCSB);
+    m_startbtn = static_cast<ui::Button*>(m_node1->getChildByName("startbtn"));
+    m_startbtn->addClickEventListener([=](Ref*send){
+        SceneManage::gotoGameScene();
+    });
     
 }
 void UIchapterLayer::registerAllCallBacks()
@@ -67,19 +72,6 @@ void UIchapterLayer::rightCallBack(cocos2d::Ref* sender)
         pagenum++;
         CCLOG("pagenum=%d",pagenum);
         m_pageview->scrollToItem(pagenum);
-        /*
-        m_leftbtn->setVisible(true);
-        if (i==5)
-        {
-            m_rightbtn->setVisible(false);
-        }
-
-        auto pointbtn=static_cast<ui::Button*>(m_node->getChildByName("charpterLayer")->getChildByTag(i));
-        pointbtn->setEnabled(true);
-        
-        pointbtn=static_cast<ui::Button*>( m_node->getChildByName("charpterLayer")->getChildByTag(i+1));
-        pointbtn->setEnabled(false);
-         */
     }
 
 }
@@ -101,6 +93,7 @@ void UIchapterLayer::pageviewCallBack(cocos2d::Ref* sender, ui::PageView::EventT
 }
 void UIchapterLayer::backCallBack(cocos2d::Ref* sender)
 {
+    SceneManage::gotoRadishTestScene();
 }
 void UIchapterLayer::helpCallBack(cocos2d::Ref* sender)
 {
