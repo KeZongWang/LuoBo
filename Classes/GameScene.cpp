@@ -2,6 +2,7 @@
 //  GameScene.cpp
 //  DefendRadish
 //
+<<<<<<< HEAD
 //  Created by mac on 18/5/9.
 //
 //
@@ -200,3 +201,29 @@ void GameScene::radishTest()
 
 
 
+=======
+//  Created by  Mac1 on 18/5/9.
+//
+//
+
+#include "GameScene.hpp"
+#include "SceneManager.hpp"
+#include "ui/CocosGUI.h"
+#include "UIManager.hpp"
+USING_NS_CC;
+Scene* GameScene::createScene()
+{
+    return GameScene::create();
+}
+bool GameScene::init()
+{
+    if (!Scene::init())
+    {
+        return false;
+    }
+    auto layer = UIManager::CreateLayer(UIManager::LayerType::GAME1);
+    this->addChild(layer);
+    
+    return true;
+}
+>>>>>>> 9c677dd07513d7bbe0175274ae934001a39f46e4

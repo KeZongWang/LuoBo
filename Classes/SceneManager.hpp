@@ -12,7 +12,7 @@
 class SceneMannger
 {
 public:
-    static void goToStartScene();
+    static void goToSelectScene();
     static void goToGameScene();
 };
 #endif /* SceneManager_hpp */

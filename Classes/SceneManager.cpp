@@ -7,19 +7,18 @@
 //
 
 #include "SceneManager.hpp"
-#include "../Scenes/StartScene.hpp"
+
+#include "GameScene.hpp"
+#include "SelectScene.hpp"
 USING_NS_CC;
-void SceneMannger::goToStartScene()
+
+void SceneMannger::goToSelectScene()
 {
-    auto startscene = StartScene::createScene();
+    auto startscene = SelectScene::createScene();
     Director::getInstance()->replaceScene(startscene);
 }
 void SceneMannger::goToGameScene()
 {
-    /*
     auto gamescene = GameScene::createScene();
-    auto scene = TransitionRotoZoom::create(1,gamescene);
-    Director::getInstance()->replaceScene(scene);
-    */
-    
+    Director::getInstance()->replaceScene(gamescene);
 }

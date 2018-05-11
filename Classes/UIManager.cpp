@@ -9,8 +9,12 @@
 #include "UIManager.hpp"
 #include "UIchapterLayer.hpp"
 #include "UISelectLayer.hpp"
+<<<<<<< HEAD
 #include "UIMenu.hpp"
 #include "UIHeart.hpp"
+=======
+#include "UIGameLayer1.hpp"
+>>>>>>> 9c677dd07513d7bbe0175274ae934001a39f46e4
 #define BACKGROUNDZORDER 10
 #define SETLAYERZORDER 20
 //管理图层；
@@ -32,6 +36,7 @@ UIBaseLayer* UIManager::CreateLayer(UIManager::LayerType type)
             m_activeLayer->setLocalZOrder(SETLAYERZORDER);
             break;
         }
+<<<<<<< HEAD
         case UIMENU:
         {
             m_activeLayer = UIMenu::create();
@@ -41,6 +46,11 @@ UIBaseLayer* UIManager::CreateLayer(UIManager::LayerType type)
         case UIHEART:
         {
             m_activeLayer = UIHear::create();
+=======
+        case GAME1:
+        {
+            m_activeLayer = UIGameLayer1::create();
+>>>>>>> 9c677dd07513d7bbe0175274ae934001a39f46e4
             m_activeLayer->setLocalZOrder(SETLAYERZORDER);
             break;
         }

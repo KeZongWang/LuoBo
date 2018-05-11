@@ -16,8 +16,8 @@ class UIchapterLayer:public UIBaseLayer
 public:
     CREATE_FUNC(UIchapterLayer);
     virtual void onCreate()override;
-    virtual void onActive();
-    virtual void onDestroy();
+    virtual void onActive()override;
+    virtual void onDestroy()override;
     
     void loadCSB();
     
