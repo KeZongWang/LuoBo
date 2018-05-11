@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049E853120A292ED00461CB0 /* RadishTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E852F20A292ED00461CB0 /* RadishTest.cpp */; };
+		049E853220A292ED00461CB0 /* RadishTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E852F20A292ED00461CB0 /* RadishTest.cpp */; };
+		049E853620A29DCD00461CB0 /* SceneManage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E853420A29DCD00461CB0 /* SceneManage.cpp */; };
+		049E853720A29DCD00461CB0 /* SceneManage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E853420A29DCD00461CB0 /* SceneManage.cpp */; };
+		049E853F20A2A29300461CB0 /* BScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E853D20A2A29300461CB0 /* BScene.cpp */; };
+		049E854020A2A29300461CB0 /* BScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E853D20A2A29300461CB0 /* BScene.cpp */; };
+		049E854320A2A30100461CB0 /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854120A2A30100461CB0 /* CScene.cpp */; };
+		049E854420A2A30100461CB0 /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854120A2A30100461CB0 /* CScene.cpp */; };
+		049E854820A2CACE00461CB0 /* DScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854620A2CACE00461CB0 /* DScene.cpp */; };
+		049E854920A2CACE00461CB0 /* DScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E854620A2CACE00461CB0 /* DScene.cpp */; };
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -483,6 +493,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049E852F20A292ED00461CB0 /* RadishTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadishTest.cpp; sourceTree = "<group>"; };
+		049E853020A292ED00461CB0 /* RadishTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RadishTest.hpp; sourceTree = "<group>"; };
+		049E853420A29DCD00461CB0 /* SceneManage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneManage.cpp; sourceTree = "<group>"; };
+		049E853520A29DCD00461CB0 /* SceneManage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneManage.hpp; sourceTree = "<group>"; };
+		049E853D20A2A29300461CB0 /* BScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BScene.cpp; sourceTree = "<group>"; };
+		049E853E20A2A29300461CB0 /* BScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BScene.hpp; sourceTree = "<group>"; };
+		049E854120A2A30100461CB0 /* CScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CScene.cpp; sourceTree = "<group>"; };
+		049E854220A2A30100461CB0 /* CScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CScene.hpp; sourceTree = "<group>"; };
+		049E854620A2CACE00461CB0 /* DScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DScene.cpp; sourceTree = "<group>"; };
+		049E854720A2CACE00461CB0 /* DScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DScene.hpp; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1152,8 +1172,13 @@
 			children = (
 				898847FE20A0354400DBC7FF /* UIManager.cpp */,
 				898847FD20A0353E00DBC7FF /* UIManager.hpp */,
+<<<<<<< HEAD
 				8917A9A720A31EEC009F49E1 /* SceneManager.cpp */,
 				8917A9AB20A31EF9009F49E1 /* SceneManager.hpp */,
+=======
+				049E853420A29DCD00461CB0 /* SceneManage.cpp */,
+				049E853520A29DCD00461CB0 /* SceneManage.hpp */,
+>>>>>>> f6c4f2ad9ba44fa0177c29b711c0589ac7e09023
 			);
 			name = Mager;
 			sourceTree = "<group>";
@@ -1163,8 +1188,19 @@
 			children = (
 				898847F520A0334500DBC7FF /* SelectScene.cpp */,
 				898847F620A0334500DBC7FF /* SelectScene.hpp */,
+<<<<<<< HEAD
 				8917A99D20A31E2B009F49E1 /* GameScene.cpp */,
 				8917A99E20A31E2B009F49E1 /* GameScene.hpp */,
+=======
+				049E852F20A292ED00461CB0 /* RadishTest.cpp */,
+				049E853020A292ED00461CB0 /* RadishTest.hpp */,
+				049E853D20A2A29300461CB0 /* BScene.cpp */,
+				049E853E20A2A29300461CB0 /* BScene.hpp */,
+				049E854120A2A30100461CB0 /* CScene.cpp */,
+				049E854220A2A30100461CB0 /* CScene.hpp */,
+				049E854620A2CACE00461CB0 /* DScene.cpp */,
+				049E854720A2CACE00461CB0 /* DScene.hpp */,
+>>>>>>> f6c4f2ad9ba44fa0177c29b711c0589ac7e09023
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -1666,16 +1702,27 @@
 				891E4A3920A44E31007E6672 /* Sprite2Child.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				049E854820A2CACE00461CB0 /* DScene.cpp in Sources */,
 				8988480B20A059D400DBC7FF /* VisibleRect.cpp in Sources */,
 				898847EC20A0328700DBC7FF /* UIchapterLayer.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+<<<<<<< HEAD
 				891E4A2520A3DEA5007E6672 /* MonesterBird.cpp in Sources */,
+=======
+				049E853F20A2A29300461CB0 /* BScene.cpp in Sources */,
+>>>>>>> f6c4f2ad9ba44fa0177c29b711c0589ac7e09023
 				898847F720A0334500DBC7FF /* SelectScene.cpp in Sources */,
+				049E854320A2A30100461CB0 /* CScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				049E853620A29DCD00461CB0 /* SceneManage.cpp in Sources */,
 				89249D1720A1C2C800FEAE38 /* UISelectLayer.cpp in Sources */,
 				8917A99F20A31E2B009F49E1 /* GameScene.cpp in Sources */,
 				8988480220A0357800DBC7FF /* UIBaseLayer.cpp in Sources */,
+<<<<<<< HEAD
 				891E4A2020A3D9A1007E6672 /* Carrot.cpp in Sources */,
+=======
+				049E853120A292ED00461CB0 /* RadishTest.cpp in Sources */,
+>>>>>>> f6c4f2ad9ba44fa0177c29b711c0589ac7e09023
 				898847FF20A0354400DBC7FF /* UIManager.cpp in Sources */,
 				891E4A3520A44E31007E6672 /* BasePrite.cpp in Sources */,
 				8917A9A820A31EEC009F49E1 /* SceneManager.cpp in Sources */,
@@ -1689,10 +1736,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				898847F820A0334500DBC7FF /* SelectScene.cpp in Sources */,
+<<<<<<< HEAD
 				8917A9A520A31E59009F49E1 /* UIGameLayer1.cpp in Sources */,
+=======
+				049E853720A29DCD00461CB0 /* SceneManage.cpp in Sources */,
+				049E854420A2A30100461CB0 /* CScene.cpp in Sources */,
+>>>>>>> f6c4f2ad9ba44fa0177c29b711c0589ac7e09023
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				049E854020A2A29300461CB0 /* BScene.cpp in Sources */,
 				898847ED20A0328700DBC7FF /* UIchapterLayer.cpp in Sources */,
+<<<<<<< HEAD
 				891E4A2620A3DEA5007E6672 /* MonesterBird.cpp in Sources */,
+=======
+				049E854920A2CACE00461CB0 /* DScene.cpp in Sources */,
+				049E853220A292ED00461CB0 /* RadishTest.cpp in Sources */,
+>>>>>>> f6c4f2ad9ba44fa0177c29b711c0589ac7e09023
 				8988480020A0354400DBC7FF /* UIManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				891E4A2120A3D9A1007E6672 /* Carrot.cpp in Sources */,

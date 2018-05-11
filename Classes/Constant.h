@@ -11,6 +11,8 @@
 
 //背景图
 static const char* StartScene_BackGround = "loding_bg.png";
+static const char* RadishTest_SaySprite1 ="cloud1.png";
+static const char* RadishTest_SaySprite2 ="cloud2.png";
 
 
 //按钮
@@ -24,10 +26,15 @@ static const char* ChaBtn = "check_close_normal2.png";
 static const char* StartScene_BgMusic = "bg_startgamescene.mp3";
 
 
-//stduido
+//studio
 static const char* chapterLayerCSB = "Studio/DefendRadishScene.csb";
 static const char* SelectLayerCSB = "Studio/SelectLayer.csb";
+<<<<<<< HEAD
 static const char* GameLayer1CSB = "Studio/Game1Layer.csb";
+=======
+static const char* RadishTestCSB = "Studio/Layer1.csb";
+
+>>>>>>> f6c4f2ad9ba44fa0177c29b711c0589ac7e09023
 
 //TMXTiledMap
 static const char* GameTmx1= "Game1.tmx";
